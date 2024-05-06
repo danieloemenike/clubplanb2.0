@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,*, body {
+  font-family: var(--font-inter);
+}
+body {
+  color: white;
+  background-color: black;
+ 
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
