@@ -1,7 +1,8 @@
 "use client"
 import React, { useState } from 'react';
-import { regularMenu} from '@/menuData';
+
 import Image from 'next/image';
+import { vipMenu } from '@/club-vip-menu';
 
 type DrinkModel = {
   id: number;
@@ -31,13 +32,13 @@ export default function Menu() {
       <section className='w-full h-full flex mt-4 '>
         <div className='w-full h-full'>
           <div className='flex justify-center text-[1rem] md:text-[3rem] w-full h-full items-center px-2'>
-            <h2 className='font-bold text-[1rem] md:text-[4rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-rose-400 via-white  to-rose-500'>Vip Menu </h2>
+            <h2 className='font-bold text-[2rem] lg:text-[4rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-rose-400 via-white  to-rose-500'>Vip Menu </h2>
           </div>
           <div className='w-full h-full'>
             <div className="flex flex-col md:flex-row justify-center m-4 p-4 gap-2 md:gap-4">
               <select title="categories" onChange={handleCategoryChange} className='mt-4 p-2  bg-black rounded-md '>
                 <option value='' className=''>All Drinks</option>
-                {regularMenu.map((drinks: DrinkModel) => (
+                {vipMenu.map((drinks: DrinkModel) => (
                   <option key={drinks.id} value={drinks.category}>
                     {drinks.category}
                   </option>
@@ -51,7 +52,7 @@ export default function Menu() {
                 className='mt-4 p-2 rounded-md bg-black w-[100%] lg:w-[40%]'
               />
             </div>
-            {regularMenu.map((drinks: DrinkModel) => {
+            {vipMenu.map((drinks: DrinkModel) => {
               const filteredDrinks = drinks.drinks.filter(
                 (drink) =>
                   (!searchTerm || drink.name.toLowerCase().includes(searchTerm)) ||
@@ -79,7 +80,7 @@ export default function Menu() {
               }
               return null;
             })}
-            {regularMenu
+            {vipMenu
               .flatMap((drinks: DrinkModel) => drinks.drinks)
               .filter(
                 (drink) =>

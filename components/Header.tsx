@@ -29,7 +29,7 @@ function Header({ }: Props) {
           <div className='h-[100%] w-full flex items-center justify-between '>
               <Link href="/" className='flex items-center gap-4'>
           <Image src="/clublogo.jpeg" alt="club logo" width={ 50 } height={ 40 } className='rounded-full object-fill' />
-          <h2 className='font-bold tracking-tight text-sm md:text-lg  '> CLUB PLAN B</h2>
+          <h2 className='font-bold tracking-tight hidden md:text-lg  '> CLUB PLAN B</h2>
               </Link>
         <div className="flex gap-4"> 
             { menus.map((menu) => (

@@ -31,7 +31,7 @@ export default function Menu() {
       <section className='w-full h-full flex  '>
         <div className='w-full h-full'>
           <div className='flex justify-center text-[1rem] md:text-[3rem] w-full h-full items-center px-2'>
-            <h2 className='font-bold text-[4rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-orange-400 via-white  to-white'>Regular Menu </h2>
+            <h2 className='font-bold text-[2rem] lg:text-[4rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-orange-400 via-white  to-white'>Regular Menu </h2>
           </div>
           <div className='w-full h-full'>
             <div className="flex flex-col md:flex-row justify-center m-4 p-4 gap-2 md:gap-4">
