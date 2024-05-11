@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={  `${inter.variable} ${gv.variable}  ` }>{children}</body>
+      <body className={  `${inter.variable} ${gv.variable} ` }>{children}</body>
     </html>
   );
 }

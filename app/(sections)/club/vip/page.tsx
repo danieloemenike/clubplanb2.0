@@ -7,7 +7,7 @@ type Props = {}
 function VipPage({}: Props) {
   return (
     <section>
-      <Header />
+   
       <Menu/>
     </section>
   )

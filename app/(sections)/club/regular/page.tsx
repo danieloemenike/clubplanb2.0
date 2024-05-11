@@ -6,8 +6,8 @@ type Props = {}
 
 function RegularPage({}: Props) {
     return (
-        <section>
-            <Header/>
+        <section className='bg-gradient-to-tr from-gray-800 via-black to-zinc-800 '>
+        
             <Menu/>
         </section>
     );

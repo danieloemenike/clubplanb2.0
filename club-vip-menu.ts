@@ -1,4 +1,4 @@
-export const regularMenu = [
+export const vipMenu = [
     {
         id: 0,
         category: "Tequilla",

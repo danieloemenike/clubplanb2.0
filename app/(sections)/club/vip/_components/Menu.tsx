@@ -28,15 +28,15 @@ export default function Menu() {
   
   return (
     <>
-      <section className='w-full h-full flex mt-20 '>
+      <section className='w-full h-full flex mt-4 '>
         <div className='w-full h-full'>
-          <div className='flex justify-center text-[3rem] w-full h-full items-center'>
-            <h2 className='font-bold text-[5rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-white via-white/80  to-orange-500'>Vip Menu </h2>
+          <div className='flex justify-center text-[1rem] md:text-[3rem] w-full h-full items-center px-2'>
+            <h2 className='font-bold text-[1rem] md:text-[4rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-rose-400 via-white  to-rose-500'>Vip Menu </h2>
           </div>
           <div className='w-full h-full'>
             <div className="flex flex-col md:flex-row justify-center m-4 p-4 gap-2 md:gap-4">
-              <select title="categories" onChange={handleCategoryChange} className='mt-4 p-2 border bg-black rounded-md '>
-                <option value=''>All Drinks</option>
+              <select title="categories" onChange={handleCategoryChange} className='mt-4 p-2  bg-black rounded-md '>
+                <option value='' className=''>All Drinks</option>
                 {regularMenu.map((drinks: DrinkModel) => (
                   <option key={drinks.id} value={drinks.category}>
                     {drinks.category}
@@ -45,10 +45,10 @@ export default function Menu() {
               </select>
               <input
                 type='text'
-                placeholder='Search drinks...'
+                placeholder='Search for drinks here...'
                 value={searchTerm}
                 onChange={handleSearchChange}
-                className='mt-4 p-2 border border-gray-300 rounded-md bg-black'
+                className='mt-4 p-2 rounded-md bg-black w-[100%] lg:w-[40%]'
               />
             </div>
             {regularMenu.map((drinks: DrinkModel) => {
@@ -61,15 +61,15 @@ export default function Menu() {
               if (!selectedCategory || (selectedCategory && drinks.category === selectedCategory && filteredDrinks.length > 0)) {
                 return (
                   <div key={drinks.id}>
-                    {filteredDrinks.length > 0 && <div className=' bg-black flex decoration-from-font  underline underline-offset-8  justify-center'> <h3 className='font-bold text-[3rem] text-center mt-32 mb-12 font-gv capitalize tracking-[.20rem] bg-clip-text text-transparent bg-gradient-to-r  to-white  from-orange-400 '>{drinks.category}</h3> </div>}
+                    {filteredDrinks.length > 0 && <div className='  flex decoration-from-font justify-center'> <h3 className='font-bold text-[3rem] text-center mt-32 mb-12 font-gv capitalize tracking-[.20rem] bg-clip-text text-transparent bg-gradient-to-r  from-rose-600 via-white to-rose-600 '>{drinks.category}</h3> </div>}
                     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:mx-3 md:gap-6 mx-2 lg:mx-20 backdrop-filter backdrop-blur-lg'>
                       {filteredDrinks.map((drink) => (
-                        <div key={drink.id} id={drink.id.toString()} className='rounded-md h-80 w-50 p-2 shadow   backdrop-filter backdrop-blur-lg bg-zinc-900'>
+                        <div key={drink.id} id={drink.id.toString()} className='rounded-md h-80 w-50 p-2 shadow   backdrop-filter backdrop-blur-lg '>
                           <div className='h-60 w-full bg-white object-contain flex items-center justify-center overflow-hidden rounded-t-lg mb-2'>
                             <Image src={ drink.image } alt="drinks" width={ 290 } height={ 150} className='object-contain rounded-xl' loading='lazy'/>
                           </div>
-                          <div className='w-full flex justify-center items-center  h-[17%] mt-3'>
-                            <h2 className=' text-base text-white'> <span className='bg-clip-text '>{ drink.name } - </span><span className='rounded-md text-sm bg-white text-black p-1 font-semibold'>{ drink.price}</span></h2>
+                          <div className='w-full flex justify-center items-center  h-[17%] mb-4 py-8 px-3 '>
+                            <h2 className=' text-base text-white'> <span className='bg-clip-text '>{ drink.name } - </span><span className='rounded-md text-sm bg-gradient-to-r from-rose-600 via-orange-700 to-rose-600 text-white p-1 font-semibold'>{ drink.price}</span></h2>
                           </div>
                         </div>
                       ))}
