@@ -21,8 +21,9 @@ function Hero({path, title, lounge}: Props) {
                       <h2 className="text-white/50" >{ title}</h2>
                   </div>
               </div>
-              <div className='h-[40vh] lg:h-[70vh] w-[85%]  items-center justify-center drop-shadow-xl '>
-              <Image src={path} alt="model" height={550} width={550} className='rounded-3xl border-white border-2 object-cover mx-4 hover:grayscale drop-shadow-xl  ' priority />
+              <div className='h-[35vh] lg:h-[70vh] w-[85%] mx-auto my-auto  items-center justify-center drop-shadow-xl 
+              '>
+                  <Image src={path} alt="model" height={400} width={400} className='rounded-3xl border-white border-2 object-cover hover:grayscale drop-shadow-xl  mx-auto my-auto h-[80%] w-[90%]  ' priority />
               </div>
       </section>
       </>

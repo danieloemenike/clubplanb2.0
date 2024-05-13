@@ -25,8 +25,8 @@ function Header({ }: Props) {
   const activeRoute = usePathname();
 	const params = useParams();
   return (
-      <main className='  flex w-full shadow-md dark:shadow-2xl mb-2 sticky top-0 z-50 bg-black py-2  px-4'>
-          <div className='h-[100%] w-full flex items-center justify-between '>
+      <main className=' h-[5rem] flex w-full shadow-md dark:shadow-2xl  sticky top-0 z-50 mb-15 py-2  px-4 bg-black'>
+          <div className='flex items-center justify-between '>
               <Link href="/" className='flex items-center gap-4'>
           <Image src="/clublogo.jpeg" alt="club logo" width={ 50 } height={ 40 } className='rounded-full object-fill' />
           <h2 className='font-bold tracking-tight hidden md:text-lg  '> CLUB PLAN B</h2>
