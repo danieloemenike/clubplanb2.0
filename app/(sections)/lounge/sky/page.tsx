@@ -5,13 +5,13 @@ import Hero from '../_components/Hero';
 
 type Props = {}
 
-function RegularPage({}: Props) {
+function SkyPage({}: Props) {
     return (
-        <section className='bg-gradient-to-r from-orange-800/10 via-black to-zinc-800/15 '>
-           <Hero path="/clubb1.jpg" title="A Classy Affair, Every Night" />
+        <section className='bg-gradient-to-r to-black via-black from-sky-900/20 '>
+         <Hero path="/carab4.jpeg" title="Where Luxury Feels Like Home" lounge="Sky"/>
             <Menu/>
         </section>
     );
 }
 
-export default RegularPage
+export default SkyPage

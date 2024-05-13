@@ -1,7 +1,8 @@
 "use client"
 import React, { useState } from 'react';
-import { regularMenu} from '@/menuData';
+
 import Image from 'next/image';
+import { regularMenu } from '@/lounge-regular-menu';
 
 type DrinkModel = {
   id: number;
@@ -28,10 +29,10 @@ export default function Menu() {
   
   return (
     <>
-      <section className='w-full h-full flex  '>
+      <section className='w-full h-full flex  mt-4 py-10'>
         <div className='w-full h-full'>
           <div className='flex justify-center text-[1rem] md:text-[3rem] w-full h-full items-center px-2'>
-            <h2 className='font-bold text-[2rem] lg:text-[4rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-orange-400 via-white  to-white'>Regular Menu </h2>
+            <h2 className='font-bold text-[2rem] lg:text-[4rem] font-gv bg-clip-text text-transparent bg-gradient-to-r  from-rose-400 via-white  to-white'>Madiba Lounge Menu </h2>
           </div>
           <div className='w-full h-full'>
             <div className="flex flex-col md:flex-row justify-center m-4 p-4 gap-2 md:gap-4">
@@ -61,15 +62,15 @@ export default function Menu() {
               if (!selectedCategory || (selectedCategory && drinks.category === selectedCategory && filteredDrinks.length > 0)) {
                 return (
                   <div key={drinks.id}>
-                    {filteredDrinks.length > 0 && <div className='  flex decoration-from-font justify-center'> <h3 className='font-bold text-[3rem] text-center mt-32 mb-12 font-gv capitalize tracking-[.20rem] bg-clip-text text-transparent bg-gradient-to-r  to-white  from-orange-400 '>{drinks.category}</h3> </div>}
+                    {filteredDrinks.length > 0 && <div className='  flex decoration-from-font justify-center'> <h3 className='font-bold text-[3rem] text-center mt-32 mb-12 font-gv capitalize tracking-[.20rem] bg-clip-text text-transparent bg-gradient-to-r  to-white  from-rose-400 '>{drinks.category}</h3> </div>}
                     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:mx-3 md:gap-6 mx-2 lg:mx-20 backdrop-filter backdrop-blur-lg'>
                       {filteredDrinks.map((drink) => (
                         <div key={drink.id} id={drink.id.toString()} className='rounded-md h-80 w-50 p-2 shadow   backdrop-filter backdrop-blur-lg '>
                           <div className='h-60 w-full bg-white object-contain flex items-center justify-center overflow-hidden rounded-t-lg mb-2'>
                             <Image src={ drink.image } alt="drinks" width={ 290 } height={ 150} className='object-contain rounded-xl' loading='lazy'/>
                           </div>
-                          <div className='w-full flex justify-center items-center  h-[17%] mb-4 py-8 px-3 border border-black'>
-                            <h2 className=' text-base text-white'> <span className='bg-clip-text '>{ drink.name } - </span><span className='rounded-md text-sm bg-white text-black p-1 font-semibold'>{ drink.price}</span></h2>
+                          <div className='w-full flex justify-center items-center  h-[17%] mb-4 py-8 px-3 border border-black drop-shadow-2xl rounded-xl'>
+                            <h2 className=' text-base text-rose-300'> <span className='bg-clip-text '>{ drink.name } - </span><span className='rounded-md text-sm bg-white text-black p-1 font-semibold'>{ drink.price}</span></h2>
                           </div>
                         </div>
                       ))}

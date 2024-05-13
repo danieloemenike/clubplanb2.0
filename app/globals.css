@@ -4,10 +4,11 @@
 
 html,*, body {
   font-family: var(--font-inter);
+  box-sizing: border-box;
 }
 body {
   color: white;
-  background-color: black;
+ background-color: black;
  
 }
 

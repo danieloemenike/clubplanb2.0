@@ -1,11 +1,12 @@
-import Header from "@/components/Header";
+
 import type { Metadata } from "next";
+import Header from "./_components/Header";
 
 
 
 export const metadata: Metadata = {
-  title: "Carabana Club",
-  description: "Carabana Club",
+  title: "Carabana Lounge",
+  description: "Carabana Lounge",
 };
 
 export default function RootLayout({
@@ -15,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
 
-      <body className="bg-black">
+      <body>
           <Header />
           { children }</body>
 
