@@ -81,7 +81,8 @@ export const vipMenu = [
       drinks: [
           { id: 1, name: "ACE OF SPADES", price: "N750,000", image: "/acesp.jpeg" },
           { id: 2, name: "CRISTAL CHAMPAGNE", price: "N700,000", image: "/cristal.jpeg" },
-          { id: 3, name: "DOM PERIGNON", price: "N750,000", image: "/domcha.jpeg" },
+        { id: 3, name: "DOM PERIGNON", price: "N750,000", image: "/domcha.jpeg" },
+        { id: 4, name: "MOET ROSE", price: "N200,000", image: "/moetrose.jpeg" },  
         { id: 5, name: "MOET ICE", price: "N250,000", image: "/moetice.jpeg" },   
         { id: 6, name: "VEUVE CLIEQUOT", price: "N200,000", image: "/veu.webp" },
         { id: 7, name: "BELAIRE ROSE", price: "N110,000", image: "/blr.jpeg" },

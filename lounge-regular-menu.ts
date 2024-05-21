@@ -7,13 +7,13 @@ export const regularMenu = [
           { id: 1, name: "AZUL CLASE", price: "N500,000", image: "/azulclase.webp" },
           { id: 2, name: "DON JULIO", price: "N500,000", image: "/donju.png" },
           { id: 3, name: "VOLCAN XA", price: "N450,000", image: "/volxa.png" }, 
-          { id: 4, name: "VOLCAN WHITE", price: "N120,000", image: "/volwhite.webp" },
-          { id: 5, name: "VOLCAN GOLD", price: "N100,000", image: "/volgold.webp" },
+          { id: 4, name: "VOLCAN WHITE", price: "N100,000", image: "/volwhite.webp" },
+          { id: 5, name: "VOLCAN GOLD", price: "N120,000", image: "/volgold.webp" },
           { id: 6, name: "SIERRA TEQUILA", price: "N50,000", image: "/st.webp" }, 
           { id: 7, name: "OLMECA TEQUILA", price: "N70,000", image: "/otqq.webp" },
           { id: 8, name: "CASA MAESTRI", price: "N250,000", image: "/casaa.webp" },
           { id: 9, name: "CASAMIGOS WHITE", price: "N250,000", image: "/casawh.webp" },
-          { id: 10, name: "CASAMIGOS GOLD", price: "N280,000", image: "/casagd.jpeg" },
+          { id: 10, name: "CASAMIGOS GOLD", price: "N250,000", image: "/casagd.jpeg" },
         ]
     },
     {
@@ -21,11 +21,11 @@ export const regularMenu = [
         category: "Cognac",
         drinks: [
           { id: 0, name: "HENNESSY XO", price: "N550,000", image: "/henxo.jpeg" },
-          { id: 1, name: "HENNESSY VSOP", price: "N180,000", image: "/henvs.png" },
-          { id: 2, name: "HENNESSY VS", price: "N100,000", image: "/images.jpeg" },
+          { id: 1, name: "HENNESSY VSOP", price: "N150,000", image: "/henvs.png" },
+          { id: 2, name: "HENNESSY VS", price: "N90,000", image: "/images.jpeg" },
           { id: 3, name: "MARTELL XXO", price: "N600,000", image: "/martelxxo.webp" }, 
           { id: 4, name: "MARTELL XO", price: "N450,000", image: "/Martell-XO.webp" },
-          { id: 5, name: "MARTELL BLUESWIFT", price: "N150,000", image: "/mtswift.png" },
+          { id: 5, name: "MARTELL BLUESWIFT", price: "N120,000", image: "/mtswift.png" },
           { id: 6, name: "MARTELL VS", price: "N80,000", image: "/martk.png" }, 
           { id: 7, name: "REMY MARTINS XO", price: "N450,000", image: "/rmxo.jpeg" },
           { id: 8, name: "REMY MARTINS VSOP", price: "N100,000", image: "/rmvs.png" },
@@ -52,7 +52,8 @@ export const regularMenu = [
             { id: 13, name: "AMERICAN HONEY", price: "N40,000", image: "/amh.png" }, 
             { id: 14, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             { id: 15, name: "JAMESON BLACK BARREL", price: "N60,000", image: "/jbb.jpeg" },
-            { id: 16, name: "MONKEY SHOULDER", price: "N40,000", image: "/mshh.jpeg" },
+          { id: 16, name: "MONKEY SHOULDER", price: "N40,000", image: "/mshh.jpeg" },
+          { id: 17, name: "JACK DANIELS", price: "N35,000", image: "/jackdaniels.jpeg" },
         ]
       },
 
@@ -72,6 +73,7 @@ export const regularMenu = [
         { id: 10, name: "DORNFELDER WINE", price: "N12,000", image: "/dornfelder.webp" },
         { id: 11, name: "ALABASTA WINE", price: "N15,000", image: "/alabaster.jpeg" },
         { id: 12, name: "CRONIER WINE", price: "N15,000", image: "/cron.webp" },
+        { id: 13, name: "CHAMDOR", price: "N10,000", image: "/chamdor.jpeg" },
       ]
     },
   
@@ -81,10 +83,11 @@ export const regularMenu = [
       drinks: [
           { id: 1, name: "ACE OF SPADES", price: "N750,000", image: "/acesp.jpeg" },
           { id: 2, name: "CRISTAL CHAMPAGNE", price: "N700,000", image: "/cristal.jpeg" },
-          { id: 3, name: "DOM PERIGNON", price: "N750,000", image: "/domcha.jpeg" },
+        { id: 3, name: "DOM PERIGNON", price: "N750,000", image: "/domcha.jpeg" },
+        { id: 4, name: "MOET ROSE", price: "N200,000", image: "/moetrose.jpeg" },  
         { id: 5, name: "MOET ICE", price: "N250,000", image: "/moetice.jpeg" },   
         { id: 6, name: "VEUVE CLIEQUOT", price: "N200,000", image: "/veu.webp" },
-        { id: 7, name: "BELAIRE ROSE", price: "N110,000", image: "/blr.jpeg" },
+        { id: 7, name: "BELAIRE ROSE", price: "N120,000", image: "/blr.jpeg" },
         { id: 8, name: "BELAIRE LUX", price: "N120,000", image: "/belue.webp" },
         { id: 9, name: "BELAIRE LUX FANTOME", price: "N120,000", image: "/beluxe.png" },
       ]
@@ -96,12 +99,11 @@ export const regularMenu = [
       drinks: [
         { id: 1, name: "CIROC", price: "N80,000", image: "/ciroc.jpeg" }, 
         { id: 2, name: "BELVEDERE VODKA", price: "N70,000", image: "/belvod.webp" },
-        { id: 3, name: "SMIRNOFF XI", price: "N12,000", image: "/vodsm.webp" },
+        { id: 3, name: "SMIRNOFF XI", price: "N15,000", image: "/vodsm.webp" },
         { id: 4, name: "ABSOLUT VODKA", price: "N20,000", image: "/absvod.webp" },
         { id: 5, name: "BIG MAGIC MOMENT", price: "N15,000", image: "/bmm.webp" },
         { id: 6, name: "WILLIAMS LAWSON", price: "N25,000", image: "/wll.jpg" },
-        { id: 7, name: "SMIRNOFF X1 SMALL", price: "N3,000", image: "/smvodk.jpeg" },
-        // { id: 3, name: "HAPPY LEAF", price: "N15,000", image: "/hapleaf.jpeg" },
+        { id: 7, name: "SMIRNOFF X1 SMALL", price: "N3,500", image: "/smvodk.jpeg" },
      
       ]
     },
@@ -123,10 +125,6 @@ export const regularMenu = [
             { id: 12, name: "BIG HOLLANDIA", price: "N2,500", image: "/hy.jpeg" },
             { id: 13, name: "SMALL HOLLANDIA", price: "N700", image: "/hy.jpeg" },
             { id: 14, name: "ICE TEA BIG", price: "N1,500", image: "/icedtea.jpeg" },
-        //   { id: 0, name: "WATER", price: "N500", image: "/wt.png" },
-         
-        //   { id: 2, name: "MALT", price: "N700", image: "/malt.png" },
-        //   { id: 5, name: "FANTA", price: "N700", image: "/fanta.webp" },
         ]
     },
           
@@ -144,7 +142,7 @@ export const regularMenu = [
           { id: 8, name: "ODOGWU BITTERS", price: "N2,000", image: "/odbit.jpeg" },
           { id: 9, name: "ODOGWU HAMMER", price: "N1,500", image: "/hammer.webp" },//CHECK
           { id: 10, name: "1960 BITTERS", price: "N1,500", image: "/1960roots.webp" },//CHECK
-          { id: 11, name: "EROKO BITTERS", price: "N1,000", image: "/eroko.png" },
+          { id: 11, name: "DE GENERAL", price: "N2,000", image: "/degeneral.webp" },
         ]
     },
       
@@ -172,7 +170,7 @@ export const regularMenu = [
             { id: 18, name: "LEGEND", price: "N1,500", image: "/legend.jpeg" },
             { id: 19, name: "ODOGWU BITTERS", price: "N2,000", image: "/odbit.jpeg" },
             { id: 20, name: "BUDWEISER", price: "N1,500", image: "/budbig.avif" },
-            { id: 21, name: "WATER", price: "N500", image: "/wt.png" },
+            { id: 21, name: "WATER", price: "N300", image: "/wt.png" },
             { id: 22, name: "SMIRNOFF ICE DOUBLE BLACK GUARANA", price: "N1200", image: "/dbice.jpeg" }, 
           { id: 23, name: "FLYING FISH", price: "N1,000", image: "/ff.jpeg" },
           { id: 24, name: "CASTLE LITE", price: "N1,200", image: "/lite.webp" },
@@ -185,7 +183,7 @@ export const regularMenu = [
       category: "Cream Liquor",
       drinks: [
           { id: 1, name: "AMARULA", price: "N15,000", image: "/amarula.png" },
-        { id: 0, name: "BAILEYS", price: "N25,000", image: "/bail.jpeg" },
+        { id: 0, name: "BAILEYS", price: "N20,000", image: "/bail.jpeg" },
         { id: 2, name: "BEST CREAM", price: "N2,500", image: "/smalbes.webp" }
       ]
     },
@@ -214,16 +212,16 @@ export const regularMenu = [
         id: 12,
         category: "Cocktail",
         drinks: [
-          { id: 0, name: "LONG ISLAND TEA", price: "N12,000", image: "/longisland.jpeg" },
-          { id: 1, name: "STRAWBERRY DAQUIRI", price: "N8,000", image: "/strawberrydaiquris.webp" },
-          { id: 2, name: "PINNACOLADA", price: "N8,000", image: "/pina.jpeg" },
-          { id: 3, name: "PASSION ME", price: "N8,000", image: "/passionfruit.jpeg" },
-          { id: 4, name: "CHAPMAN", price: "N8,000", image: "/chapman.jpeg" },
-          { id: 6, name: "ECLIPSE", price: "N8,000", image: "/eclipse.jpeg" },
-          { id: 7, name: "TEQUILA SUNRISE", price: "N8,000", image: "/tqsunrise.webp" },
-          { id: 8, name: "SWIMMING POOL", price: "N8,000", image: "/swmcoc.webp" },
-          { id: 9, name: "BAY BREEZE", price: "N8,000", image: "/baybreeze.jpeg" },
-          { id: 10, name: "TEQUILA SHOTS", price: "N8,000", image: "/tq.jpeg" },
+          { id: 0, name: "LONG ISLAND TEA", price: "N7,000", image: "/longisland.jpeg" },
+          { id: 1, name: "STRAWBERRY DAQUIRI", price: "N6,500", image: "/strawberrydaiquris.webp" },
+          { id: 2, name: "PINNACOLADA", price: "N6,000", image: "/pina.jpeg" },
+          { id: 3, name: "PASSION ME", price: "N6,000", image: "/passionfruit.jpeg" },
+          { id: 4, name: "CHAPMAN", price: "N4,500", image: "/chapman.jpeg" },
+          { id: 6, name: "ECLIPSE", price: "N4,000", image: "/eclipse.jpeg" },
+          { id: 7, name: "TEQUILA SUNRISE", price: "N5,000", image: "/tqsunrise.webp" },
+          { id: 8, name: "SWIMMING POOL", price: "N7,000", image: "/swmcoc.webp" },
+          { id: 9, name: "BAY BREEZE", price: "N5,000", image: "/baybreeze.jpeg" },
+          { id: 10, name: "TEQUILA SHOTS", price: "N3,000", image: "/tq.jpeg" },
         ]
     },
     

@@ -1,6 +1,5 @@
 import React from 'react'
 import Menu from './_components/Menu';
-import Header from '../../../../components/Header';
 import Hero from '../_components/Hero';
 
 type Props = {}

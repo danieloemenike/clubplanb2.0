@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import Image from 'next/image';
-import { regularMenu } from '@/lounge-regular-menu';
+import { skyMenu } from '@/sky-menu';
 
 type DrinkModel = {
   id: number;
@@ -38,7 +38,7 @@ export default function Menu() {
             <div className="flex flex-col md:flex-row justify-center m-4 p-4 gap-2 md:gap-4">
               <select title="categories" onChange={handleCategoryChange} className='mt-4 p-2  bg-black rounded-md '>
                 <option value='' className=''>All Drinks</option>
-                {regularMenu.map((drinks: DrinkModel) => (
+                {skyMenu.map((drinks: DrinkModel) => (
                   <option key={drinks.id} value={drinks.category}>
                     {drinks.category}
                   </option>
@@ -52,7 +52,7 @@ export default function Menu() {
                 className='mt-4 p-2 rounded-md bg-black w-[100%] lg:w-[40%]'
               />
             </div>
-            {regularMenu.map((drinks: DrinkModel) => {
+            {skyMenu.map((drinks: DrinkModel) => {
               const filteredDrinks = drinks.drinks.filter(
                 (drink) =>
                   (!searchTerm || drink.name.toLowerCase().includes(searchTerm)) ||
@@ -80,7 +80,7 @@ export default function Menu() {
               }
               return null;
             })}
-            {regularMenu
+            {skyMenu
               .flatMap((drinks: DrinkModel) => drinks.drinks)
               .filter(
                 (drink) =>
