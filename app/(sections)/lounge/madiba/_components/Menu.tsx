@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import Image from 'next/image';
-import { madibaMenu } from '@/madiba-menu';
+import {Madiba_Sky_Menu as madibaMenu } from '@/madiba-and-sky-menu';
 
 type DrinkModel = {
   id: number;

@@ -11,7 +11,7 @@ const menus = [
       id: "1",
       title: 'Regular',
       path: 'regular',
-      color: "#292929"
+      color: "#292929E5"
   },
 
   {

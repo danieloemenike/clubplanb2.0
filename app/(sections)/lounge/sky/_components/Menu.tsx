@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import Image from 'next/image';
-import { skyMenu } from '@/sky-menu';
+import { Madiba_Sky_Menu as skyMenu} from '@/madiba-and-sky-menu';
 
 type DrinkModel = {
   id: number;

@@ -72,6 +72,7 @@ export const regularMenu = [
         { id: 10, name: "DORNFELDER WINE", price: "N12,000", image: "/dornfelder.webp" },
         { id: 11, name: "ALABASTA WINE", price: "N15,000", image: "/alabaster.jpeg" },
         { id: 12, name: "CRONIER WINE", price: "N15,000", image: "/cron.webp" },
+        { id: 13, name: "VELETA WINE", price: "N10,000", image: "/veletawine.jpeg" },
       ]
     },
   
@@ -146,6 +147,7 @@ export const regularMenu = [
           { id: 9, name: "ODOGWU HAMMER", price: "N1,500", image: "/hammer.webp" },//CHECK
           { id: 10, name: "1960 BITTERS", price: "N1,500", image: "/1960roots.webp" },//CHECK
           { id: 11, name: "EROKO BITTERS", price: "N1,000", image: "/eroko.png" },
+          { id: 12, name: "ACTION BITTERS", price: "N1,500", image: "/actb.jpg" },
         ]
     },
       

@@ -1,4 +1,4 @@
-export const madibaMenu = [
+export const Madiba_Sky_Menu = [
     {
         id: 0,
         category: "Tequilla",
@@ -74,6 +74,7 @@ export const madibaMenu = [
         { id: 11, name: "ALABASTA WINE", price: "N15,000", image: "/alabaster.jpeg" },
         { id: 12, name: "CRONIER WINE", price: "N15,000", image: "/cron.webp" },
         { id: 13, name: "CHAMDOR", price: "N10,000", image: "/chamdor.jpeg" },
+        { id: 14, name: "VELETA WINE", price: "N10,000", image: "/veleta_wine.webp" },
       ]
     },
   
@@ -144,6 +145,7 @@ export const madibaMenu = [
           { id: 10, name: "1960 BITTERS", price: "N1,800", image: "/1960roots.webp" },//CHECK
           // { id: 11, name: "DE GENERAL", price: "N2,000", image: "/degeneral.webp" },
           { id: 11, name: "EROKO BITTERS", price: "N1,000", image: "/eroko.png" },
+          { id: 12, name: "ACTION BITTERS", price: "N1,500", image: "/actb.jpg" },
         ]
     },
       
