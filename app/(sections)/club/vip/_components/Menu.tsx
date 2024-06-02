@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import Image from 'next/image';
-import { vipMenu } from '@/club-vip-menu';
+import { vipMenu } from '@/vipMenu';
 
 type DrinkModel = {
   id: number;

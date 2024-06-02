@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { regularMenu} from '@/menuData';
+import { regularMenu} from '@/regularMenu';
 import Image from 'next/image';
 
 type DrinkModel = {

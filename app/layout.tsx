@@ -17,8 +17,8 @@ const gv = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Carabana Club",
-  description: "Carabana Club",
+  title: "Club Plan B 2.0",
+  description: "Club Plan B 2.0 -  Fun Never Stops..",
 };
 
 export default function RootLayout({
