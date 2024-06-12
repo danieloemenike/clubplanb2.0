@@ -27,7 +27,7 @@ export const vipMenu = [
           { id: 3, name: "MARTELL XXO", price: "N600,000", image: "/martelxxo.webp" }, 
           { id: 4, name: "MARTELL XO", price: "N450,000", image: "/Martell-XO.webp" },
           { id: 5, name: "MARTELL BLUESWIFT", price: "N120,000", image: "/mtswift.png" },
-          { id: 6, name: "MARTELL VS", price: "N80,000", image: "/martk.png" }, 
+          // { id: 6, name: "MARTELL VS", price: "N80,000", image: "/martk.png" }, 
           { id: 7, name: "REMY MARTINS XO", price: "N450,000", image: "/rmxo.jpeg" },
           { id: 8, name: "REMY MARTINS VSOP", price: "N100,000", image: "/rmvs.png" },
           { id: 9, name: "REMY MARTINS 1738", price: "N150,000", image: "/rmmartins.jpeg" },
@@ -40,10 +40,10 @@ export const vipMenu = [
         drinks: [
             { id: 1, name: "GLENFIDDICH (23 YEARS)", price: "N700,000", image: "/gd23.webp" }, 
           { id: 2, name: "GLENFIDDICH (21 YEARS)", price: "N550,000", image: "/gf21.jpeg" },
-          { id: 30, name: "GLENFIDDICH (20 YEARS)", price: "N180,000", image: "/glen20.webp" },
+          { id: 30, name: "GLENFIDDICH (20 YEARS)", price: "N200,000", image: "/glen20.webp" },
             { id: 3, name: "GLENFIDDICH (18 YEARS)", price: "N180,000", image: "/gf18.jpeg" },
-            { id: 4, name: "GLENFIDDICH (15 YEARS)", price: "N100,000", image: "/gf15.jpeg" },
-            { id: 5, name: "GLENMORANGIE 10 YEARS", price: "N80,000", image: "/gl10.jpeg" }, 
+            // { id: 4, name: "GLENFIDDICH (15 YEARS)", price: "N100,000", image: "/gf15.jpeg" },
+            // { id: 5, name: "GLENMORANGIE 10 YEARS", price: "N80,000", image: "/gl10.jpeg" }, 
             { id: 6, name: "GLENMORANGIE 18 YEARS", price: "N200,000", image: "/gl18.png" },
             { id: 7, name: "GLENMORANGIE SIGNET", price: "N550,000", image: "/glsign.jpeg" },
             { id: 8, name: "NECTAR D'OR", price: "N120,000", image: "/glnec.png" },
@@ -58,24 +58,24 @@ export const vipMenu = [
         ]
       },
 
-    // {
-    //   id: 3,
-    //   category: "Sweet & Sour Wine",
-    //   drinks: [
-    //     { id: 1, name: "AGOR WINE", price: "N18,000", image: "/agor.jpeg" },
-    //     { id: 2, name: "ESCUDO ROJO", price: "N25,000", image: "/escudo.jpeg" },
-    //     { id: 3, name: "FOUR COUSINS", price: "N18,000", image: "/fourcous.png" },
-    //     { id: 4, name: "CARLO ROSSI", price: "N15,000", image: "/carlo.jpeg" },
-    //     { id: 5, name: "JK WINE BIG", price: "N12,000", image: "/jkbg.webp" },
-    //     { id: 6, name: "JK WINE SMALL", price: "N4,000", image: "/jkbg.webp" },
-    //     { id: 7, name: "DEVINA", price: "N10,000", image: "/davina.png" },
-    //     { id: 8, name: "DECLAN WINE", price: "N15,000", image: "/declan.jpeg" },
-    //     { id: 9, name: "4TH STREET", price: "N15,000", image: "/4th.png" },
-    //     { id: 10, name: "DORNFELDER WINE", price: "N12,000", image: "/dornfelder.webp" },
-    //     { id: 11, name: "ALABASTA WINE", price: "N15,000", image: "/alabaster.jpeg" },
-    //     { id: 12, name: "CRONIER WINE", price: "N15,000", image: "/cron.webp" },
-    //   ]
-    // },
+    {
+      id: 3,
+      category: "Sweet & Sour Wine",
+      drinks: [
+        // { id: 1, name: "AGOR WINE", price: "N18,000", image: "/agor.jpeg" },
+        // { id: 2, name: "ESCUDO ROJO", price: "N25,000", image: "/escudo.jpeg" },
+        // { id: 3, name: "FOUR COUSINS", price: "N18,000", image: "/fourcous.png" },
+        // { id: 4, name: "CARLO ROSSI", price: "N15,000", image: "/carlo.jpeg" },
+        // { id: 5, name: "JK WINE BIG", price: "N12,000", image: "/jkbg.webp" },
+        // { id: 6, name: "JK WINE SMALL", price: "N4,000", image: "/jkbg.webp" },
+        // { id: 7, name: "DEVINA", price: "N10,000", image: "/davina.png" },
+        // { id: 8, name: "DECLAN WINE", price: "N15,000", image: "/declan.jpeg" },
+        { id: 9, name: "4TH STREET", price: "N30,000", image: "/4th.png" },
+        // { id: 10, name: "DORNFELDER WINE", price: "N12,000", image: "/dornfelder.webp" },
+        // { id: 11, name: "ALABASTA WINE", price: "N15,000", image: "/alabaster.jpeg" },
+        // { id: 12, name: "CRONIER WINE", price: "N15,000", image: "/cron.webp" },
+      ]
+    },
   
     {
       id: 4,

@@ -39,7 +39,7 @@ export const regularMenu = [
         drinks: [
             { id: 1, name: "GLENFIDDICH (23 YEARS)", price: "N700,000", image: "/gd23.webp" }, 
             { id: 2, name: "GLENFIDDICH (21 YEARS)", price: "N550,000", image: "/gf21.jpeg" },
-            { id: 3, name: "GLENFIDDICH (20 YEARS)", price: "N180,000", image: "/glen20.webp" },
+            { id: 3, name: "GLENFIDDICH (20 YEARS)", price: "N200,000", image: "/glen20.webp" },
             { id: 4, name: "GLENFIDDICH (18 YEARS)", price: "N180,000", image: "/gf18.jpeg" },
             { id: 5, name: "GLENFIDDICH (15 YEARS)", price: "N100,000", image: "/gf15.jpeg" },
             { id: 6, name: "GLENMORANGIE 10 YEARS", price: "N80,000", image: "/gl10.jpeg" }, 
@@ -69,7 +69,7 @@ export const regularMenu = [
         // { id: 6, name: "JK WINE SMALL", price: "N4,000", image: "/jkbg.webp" },
         { id: 7, name: "DEVINA", price: "N20,000", image: "/davina.png" },
         { id: 8, name: "DECLAN WINE", price: "N30,000", image: "/declan.jpeg" },
-        { id: 9, name: "4TH STREET", price: "N15,000", image: "/4th.png" },
+        { id: 9, name: "4TH STREET", price: "N30,000", image: "/4th.png" },
         { id: 10, name: "DORNFELDER WINE", price: "N30,000", image: "/dornfelder.webp" },
         { id: 11, name: "ALABASTA WINE", price: "N30,000", image: "/alabaster.jpeg" },
         // { id: 12, name: "CRONIER WINE", price: "N15,000", image: "/cron.webp" },
