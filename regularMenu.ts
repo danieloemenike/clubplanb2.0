@@ -56,7 +56,7 @@ export const regularMenu = [
             { id: 17, name: "MONKEY SHOULDER", price: "N60,000", image: "/mshh.jpeg" },
         ]
       },
-
+/*
     {
       id: 3,
       category: "Sweet & Sour Wine",
@@ -76,7 +76,7 @@ export const regularMenu = [
         // { id: 13, name: "VELETA WINE", price: "N10,000", image: "/veletawine.jpeg" },
       ]
     },
-  
+  */
     {
       id: 4,
       category: "Champagne",
@@ -194,7 +194,7 @@ export const regularMenu = [
     //     { id: 2, name: "BEST CREAM", price: "N2,500", image: "/smalbes.webp" }
     //   ]
     // },
-    {
+/*    {
       id: 10,
       category: "Sparkling Wine",
       drinks: [
@@ -203,7 +203,7 @@ export const regularMenu = [
         // { id: 2, name: "GRAFT ARTOS", price: "N10,000", image: "/graf.png" },
       ]
     },
-  
+ */ 
     {
       id: 11,
       category: "Cigarette",
