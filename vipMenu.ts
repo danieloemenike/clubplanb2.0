@@ -57,7 +57,7 @@ export const vipMenu = [
             // { id: 16, name: "MONKEY SHOULDER", price: "N40,000", image: "/mshh.jpeg" },
         ]
       },
-
+/*
     {
       id: 3,
       category: "Sweet & Sour Wine",
@@ -76,7 +76,7 @@ export const vipMenu = [
         // { id: 12, name: "CRONIER WINE", price: "N15,000", image: "/cron.webp" },
       ]
     },
-  
+  */
     {
       id: 4,
       category: "Champagne",
