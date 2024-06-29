@@ -54,6 +54,8 @@ export const regularMenu = [
             // { id: 15, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             { id: 16, name: "JAMESON BLACK BARREL", price: "N70,000", image: "/jbb.jpeg" },
             { id: 17, name: "MONKEY SHOULDER", price: "N60,000", image: "/mshh.jpeg" },
+               { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N120,000", image: "/chivas18.jpg" },
+          { id: 19, name: "CHIVAS XV 15 YEARS", price: "N90,000", image: "/chivasxv15.jpeg" },
         ]
       },
 /*
