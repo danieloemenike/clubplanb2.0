@@ -55,6 +55,7 @@ export const vipMenu = [
             // { id: 14, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             // { id: 15, name: "JAMESON BLACK BARREL", price: "N60,000", image: "/jbb.jpeg" },
             // { id: 16, name: "MONKEY SHOULDER", price: "N40,000", image: "/mshh.jpeg" },
+             { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N120,000", image: "/chivas18.jpg" },
         ]
       },
 /*
