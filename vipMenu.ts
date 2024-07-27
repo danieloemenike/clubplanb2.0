@@ -56,6 +56,7 @@ export const vipMenu = [
             // { id: 14, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             // { id: 15, name: "JAMESON BLACK BARREL", price: "N60,000", image: "/jbb.jpeg" },
             // { id: 16, name: "MONKEY SHOULDER", price: "N40,000", image: "/mshh.jpeg" },
+             { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N120,000", image: "/chivas18.jpg" },
         ]
       },
 /*
@@ -82,7 +83,7 @@ export const vipMenu = [
       id: 4,
       category: "Champagne",
       drinks: [
-          { id: 1, name: "ACE OF SPADES", price: "N750,000", image: "/acesp.jpeg" },
+          { id: 1, name: "ACE OF SPADES", price: "N650,000", image: "/acesp.jpeg" },
           { id: 2, name: "CRISTAL CHAMPAGNE", price: "N700,000", image: "/cristal.jpeg" },
         { id: 3, name: "DOM PERIGNON", price: "N750,000", image: "/domcha.jpeg" },
         { id: 4, name: "MOET ROSE", price: "N200,000", image: "/moetrose.jpeg" },  
