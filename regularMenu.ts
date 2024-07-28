@@ -30,7 +30,7 @@ export const regularMenu = [
           { id: 7, name: "REMY MARTINS XO", price: "N450,000", image: "/rmxo.jpeg" },
           { id: 8, name: "REMY MARTINS VSOP", price: "N100,000", image: "/rmvs.png" },
           { id: 9, name: "REMY MARTINS 1738", price: "N150,000", image: "/rmmartins.jpeg" },
-          { id: 10, name: "CHIVAS 25 YEARS", price: "N250,000", image: "/chivas25.webp" },
+        
         
         ]
     },
@@ -54,7 +54,8 @@ export const regularMenu = [
             // { id: 14, name: "AMERICAN HONEY", price: "N40,000", image: "/amh.png" }, 
             // { id: 15, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             { id: 16, name: "JAMESON BLACK BARREL", price: "N70,000", image: "/jbb.jpeg" },
-            { id: 17, name: "MONKEY SHOULDER", price: "N60,000", image: "/mshh.jpeg" },
+          { id: 17, name: "MONKEY SHOULDER", price: "N60,000", image: "/mshh.jpeg" },
+          { id: 21, name: "CHIVAS 25 YEARS", price: "N250,000", image: "/chivas25.webp" },
                { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N120,000", image: "/chivas18.jpg" },
           { id: 19, name: "CHIVAS XV 15 YEARS", price: "N90,000", image: "/chivasxv15.jpeg" },
         ]
