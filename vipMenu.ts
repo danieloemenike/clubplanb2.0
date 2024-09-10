@@ -22,11 +22,11 @@ export const vipMenu = [
         category: "Cognac",
         drinks: [
           { id: 0, name: "HENNESSY XO", price: "N550,000", image: "/henxo.jpeg" },
-          { id: 1, name: "HENNESSY VSOP", price: "N150,000", image: "/henvs.png" },
+          { id: 1, name: "HENNESSY VSOP", price: "N160,000", image: "/henvs.png" },
           // { id: 2, name: "HENNESSY VS", price: "N100,000", image: "/images.jpeg" },
           { id: 3, name: "MARTELL XXO", price: "N600,000", image: "/martelxxo.webp" }, 
           { id: 4, name: "MARTELL XO", price: "N450,000", image: "/Martell-XO.webp" },
-          { id: 5, name: "MARTELL BLUESWIFT", price: "N120,000", image: "/mtswift.png" },
+          { id: 5, name: "MARTELL BLUESWIFT", price: "N150,000", image: "/mtswift.png" },
           // { id: 6, name: "MARTELL VS", price: "N80,000", image: "/martk.png" }, 
           { id: 7, name: "REMY MARTINS XO", price: "N450,000", image: "/rmxo.jpeg" },
           { id: 8, name: "REMY MARTINS VSOP", price: "N100,000", image: "/rmvs.png" },
@@ -125,7 +125,7 @@ export const vipMenu = [
             { id: 8, name: "REDBULL", price: "N3,000", image: "/redbull.jpeg" },//CHECK
             // { id: 9, name: "BIG CHIVITA", price: "N2,000", image: "/chibig.jpeg" },//CHECK
             // { id: 10, name: "SMALL CHIVITA", price: "N700", image: "/chismall.jpeg" },//CHECK
-            { id: 11, name: "CRANBERRY", price: "N6,000", image: "/stute.png" },
+            { id: 11, name: "CRANBERRY", price: "N8,000", image: "/stute.png" },
             // { id: 12, name: "BIG HOLLANDIA", price: "N2,500", image: "/hy.jpeg" },
             // { id: 13, name: "SMALL HOLLANDIA", price: "N700", image: "/hy.jpeg" },
             // { id: 14, name: "ICE TEA BIG", price: "N1,500", image: "/icedtea.jpeg" },
