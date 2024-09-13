@@ -126,7 +126,7 @@ export const regularMenu = [
             { id: 8, name: "REDBULL", price: "N3,000", image: "/redbull.jpeg" },//CHECK
             // { id: 9, name: "BIG CHIVITA", price: "N2,000", image: "/chibig.jpeg" },//CHECK
             // { id: 10, name: "SMALL CHIVITA", price: "N700", image: "/chismall.jpeg" },//CHECK
-            { id: 11, name: "CRANBERRY", price: "N8,000", image: "/stute.png" },
+            { id: 11, name: "CRANBERRY", price: "N10,000", image: "/stute.png" },
             // { id: 12, name: "BIG HOLLANDIA", price: "N2,500", image: "/hy.jpeg" },
             // { id: 13, name: "SMALL HOLLANDIA", price: "N700", image: "/hy.jpeg" },
             // { id: 14, name: "ICE TEA BIG", price: "N1,500", image: "/icedtea.jpeg" },
