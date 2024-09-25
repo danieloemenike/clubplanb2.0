@@ -59,6 +59,9 @@ export const vipMenu = [
             { id: 10, name: "CHIVAS 25 YEARS", price: "N250,000", image: "/chivas25.webp" },
              { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N120,000", image: "/chivas18.jpg" },
             { id: 19, name: "OBSERVATORY 20YRS", price: "N150,000", image: "/observatory-20y.jpg" },
+            { id: 21, name: "BALVENIE", price: "120,000", image: "/balvenie-12.webp" },
+            { id: 22, name: "GENTLEMAN JACK", price: "100,000", image: "/GentlemanJack.webp" },
+            { id: 23, name: "SINGLE BARREL JD", price: "150,000", image: "/singlebarrel.jpg" },
         ]
       },
 /*
