@@ -49,7 +49,7 @@ export const regularMenu = [
             { id: 8, name: "GLENMORANGIE SIGNET", price: "N550,000", image: "/glsign.jpeg" },
             { id: 9, name: "NECTAR D'OR", price: "N120,000", image: "/glnec.png" },
             { id: 10, name: "BLUE LABEL", price: "N450,000", image: "/bll.jpg" },
-            { id: 11, name: "BLACK LABEL", price: "N50,000", image: "/bl.jpeg" },
+            { id: 11, name: "BLACK LABEL", price: "N70,000", image: "/bl.jpeg" },
             // { id: 12, name: "RED LABEL", price: "N25,000", image: "/rl.jpeg" },
             { id: 13, name: "GOLD LABEL", price: "N70,000", image: "/gl.webp" },
             // { id: 14, name: "AMERICAN HONEY", price: "N40,000", image: "/amh.png" }, 
