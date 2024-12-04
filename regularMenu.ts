@@ -51,7 +51,7 @@ export const regularMenu = [
             { id: 10, name: "BLUE LABEL", price: "N450,000", image: "/bll.jpg" },
             { id: 11, name: "BLACK LABEL", price: "N70,000", image: "/bl.jpeg" },
             // { id: 12, name: "RED LABEL", price: "N25,000", image: "/rl.jpeg" },
-            { id: 13, name: "GOLD LABEL", price: "N70,000", image: "/gl.webp" },
+            { id: 13, name: "GOLD LABEL", price: "N100,000", image: "/gl.webp" },
             // { id: 14, name: "AMERICAN HONEY", price: "N40,000", image: "/amh.png" }, 
             // { id: 15, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             { id: 16, name: "JAMESON BLACK BARREL", price: "N70,000", image: "/jbb.jpeg" },
@@ -217,9 +217,9 @@ export const regularMenu = [
       id: 11,
       category: "Cigarette",
       drinks: [
-          { id: 1, name: "BENSON CORE", price: "N1,200", image: "/bens.jpeg" },
-          { id: 2, name: "BENSON SWITCH", price: "N1,500", image: "/benswi.jpeg" },
-          { id: 3, name: "DUNHILL SWITCH", price: "N1,700", image: "/dhsw.webp" },
+          { id: 1, name: "BENSON CORE", price: "N1,500", image: "/bens.jpeg" },
+          { id: 2, name: "BENSON SWITCH", price: "N2,200", image: "/benswi.jpeg" },
+          { id: 3, name: "DUNHILL SWITCH", price: "N2,200", image: "/dhsw.webp" },
         
       ]
     },
