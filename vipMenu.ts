@@ -42,7 +42,7 @@ export const vipMenu = [
             { id: 1, name: "GLENFIDDICH (23 YEARS)", price: "N700,000", image: "/gd23.webp" }, 
           { id: 2, name: "GLENFIDDICH (21 YEARS)", price: "N550,000", image: "/gf21.jpeg" },
           { id: 30, name: "GLENFIDDICH (20 YEARS)", price: "N200,000", image: "/glen20.webp" },
-            { id: 3, name: "GLENFIDDICH (18 YEARS)", price: "N180,000", image: "/gf18.jpeg" },
+            { id: 3, name: "GLENFIDDICH (18 YEARS)", price: "N200,000", image: "/gf18.jpeg" },
             // { id: 4, name: "GLENFIDDICH (15 YEARS)", price: "N100,000", image: "/gf15.jpeg" },
             // { id: 5, name: "GLENMORANGIE 10 YEARS", price: "N80,000", image: "/gl10.jpeg" }, 
             { id: 6, name: "GLENMORANGIE 18 YEARS", price: "N200,000", image: "/gl18.png" },
