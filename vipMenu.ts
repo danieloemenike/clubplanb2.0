@@ -213,9 +213,9 @@ export const vipMenu = [
       id: 11,
       category: "Cigarette",
       drinks: [
-          { id: 1, name: "BENSON CORE", price: "N1,200", image: "/bens.jpeg" },
-          { id: 2, name: "BENSON SWITCH", price: "N1,500", image: "/benswi.jpeg" },
-          { id: 3, name: "DUNHILL SWITCH", price: "N1,700", image: "/dhsw.webp" },
+          { id: 1, name: "BENSON CORE", price: "N1,500", image: "/bens.jpeg" },
+          { id: 2, name: "BENSON SWITCH", price: "N2,200", image: "/benswi.jpeg" },
+          { id: 3, name: "DUNHILL SWITCH", price: "N2,200", image: "/dhsw.webp" },
         
       ]
     },
