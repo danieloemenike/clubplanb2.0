@@ -30,9 +30,9 @@ export const vipMenu = [
           { id: 5, name: "MARTELL BLUESWIFT", price: "N150,000", image: "/mtswift.png" },
           // { id: 6, name: "MARTELL VS", price: "N80,000", image: "/martk.png" }, 
           { id: 7, name: "REMY MARTINS XO", price: "N450,000", image: "/rmxo.jpeg" },
-          { id: 8, name: "REMY MARTINS VSOP", price: "N120,000", image: "/rmvs.png" },
+         // { id: 8, name: "REMY MARTINS VSOP", price: "N120,000", image: "/rmvs.png" },
           { id: 9, name: "REMY MARTINS 1738", price: "N180,000", image: "/rmmartins.jpeg" },
-          { id: 10, name: "MEUKOW VS", price: "100,000", image: "/meukowvs.webp" },
+          // { id: 10, name: "MEUKOW VS", price: "100,000", image: "/meukowvs.webp" },
         
         ]
     },
@@ -48,7 +48,7 @@ export const vipMenu = [
             // { id: 5, name: "GLENMORANGIE 10 YEARS", price: "N80,000", image: "/gl10.jpeg" }, 
             { id: 6, name: "GLENMORANGIE 18 YEARS", price: "N200,000", image: "/gl18.png" },
             { id: 7, name: "GLENMORANGIE SIGNET", price: "N550,000", image: "/glsign.jpeg" },
-            { id: 8, name: "NECTAR D'OR", price: "N120,000", image: "/glnec.png" },
+           // { id: 8, name: "NECTAR D'OR", price: "N120,000", image: "/glnec.png" },
             { id: 9, name: "BLUE LABEL", price: "N450,000", image: "/bll.jpg" },
             // { id: 10, name: "BLACK LABEL", price: "N100,000", image: "/bl.jpeg" },
             // { id: 11, name: "RED LABEL", price: "N25,000", image: "/rl.jpeg" },
@@ -59,11 +59,11 @@ export const vipMenu = [
             // { id: 16, name: "MONKEY SHOULDER", price: "N40,000", image: "/mshh.jpeg" },
             { id: 10, name: "CHIVAS 25 YEARS", price: "N250,000", image: "/chivas25.webp" },
              { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N120,000", image: "/chivas18.jpg" },
-            { id: 19, name: "OBSERVATORY 20YRS", price: "N150,000", image: "/observatory-20y.jpg" },
-            { id: 21, name: "BALVENIE", price: "120,000", image: "/balvenie.jpeg" },
-            { id: 22, name: "GENTLEMAN JACK", price: "100,000", image: "/GentlemanJack.webp" },
-            { id: 23, name: "SINGLE BARREL JD", price: "150,000", image: "/singlebarrel.jpg" },
-            { id: 24, name: "ELEMENT WHISKY", price: "120,000", image: "/Element-Irish-Whiskey.png" },
+           // { id: 19, name: "OBSERVATORY 20YRS", price: "N150,000", image: "/observatory-20y.jpg" },
+           // { id: 21, name: "BALVENIE", price: "120,000", image: "/balvenie.jpeg" },
+           // { id: 22, name: "GENTLEMAN JACK", price: "100,000", image: "/GentlemanJack.webp" },
+          //  { id: 23, name: "SINGLE BARREL JD", price: "150,000", image: "/singlebarrel.jpg" },
+          //  { id: 24, name: "ELEMENT WHISKY", price: "120,000", image: "/Element-Irish-Whiskey.png" },
         ]
       },
 /*
@@ -127,7 +127,7 @@ export const vipMenu = [
             // { id: 4, name: "FAYROUZ", price: "N700", image: "/fayrouz-pet-x12.jpg" },
             // { id: 5, name: "MALTA GUINNESS", price: "N800", image: "/mltg.jpeg" },
             // { id: 6, name: "AMSTEL MALTA ", price: "N800", image: "/amsmalt.png" },
-            { id: 7, name: "HANGOVER TEA ", price: "N2,000", image: "/hgov.jpeg" },
+           // { id: 7, name: "HANGOVER TEA ", price: "N2,000", image: "/hgov.jpeg" },
             { id: 8, name: "REDBULL", price: "N3,000", image: "/redbull.jpeg" },//CHECK
             // { id: 9, name: "BIG CHIVITA", price: "N2,000", image: "/chibig.jpeg" },//CHECK
             // { id: 10, name: "SMALL CHIVITA", price: "N700", image: "/chismall.jpeg" },//CHECK
