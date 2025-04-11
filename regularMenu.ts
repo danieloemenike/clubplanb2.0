@@ -42,7 +42,7 @@ export const regularMenu = [
         drinks: [
             { id: 1, name: "GLENFIDDICH (23 YEARS)", price: "N700,000", image: "/gd23.webp" }, 
             { id: 2, name: "GLENFIDDICH (21 YEARS)", price: "N550,000", image: "/gf21.jpeg" },
-            { id: 3, name: "GLENFIDDICH (20 YEARS)", price: "N200,000", image: "/glen20.webp" },
+           // { id: 3, name: "GLENFIDDICH (20 YEARS)", price: "N250,000", image: "/glen20.webp" },
             { id: 4, name: "GLENFIDDICH (18 YEARS)", price: "N200,000", image: "/gf18.jpeg" },
             { id: 5, name: "GLENFIDDICH (15 YEARS)", price: "N140,000", image: "/gf15.jpeg" },
             { id: 6, name: "GLENMORANGIE 10 YEARS", price: "N80,000", image: "/gl10.jpeg" }, 
@@ -56,7 +56,7 @@ export const regularMenu = [
             // { id: 14, name: "AMERICAN HONEY", price: "N40,000", image: "/amh.png" }, 
             // { id: 15, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             { id: 16, name: "JAMESON BLACK BARREL", price: "N100,000", image: "/jbb.jpeg" },
-          { id: 17, name: "MONKEY SHOULDER", price: "N60,000", image: "/mshh.jpeg" },
+         // { id: 17, name: "MONKEY SHOULDER", price: "N60,000", image: "/mshh.jpeg" },
           { id: 21, name: "CHIVAS 25 YEARS", price: "N250,000", image: "/chivas25.webp" },
                { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N120,000", image: "/chivas18.jpg" },
           { id: 19, name: "CHIVAS XV 15 YEARS", price: "N100,000", image: "/chivasxv15.jpeg" },
@@ -124,8 +124,8 @@ export const regularMenu = [
         category: "Soft Drink / Mixers",
         drinks: [
             { id: 1, name: "COKE", price: "N2,000", image: "/coke.png" },
-            { id: 2, name: "SPRITE", price: "N1500", image: "/sprite.jpeg" },
-            { id: 3, name: "SCHWEPPES", price: "N1500", image: "/schw.avif" },
+            { id: 2, name: "SPRITE", price: "N2,000", image: "/sprite.jpeg" },
+            { id: 3, name: "SCHWEPPES", price: "N2,000", image: "/schw.avif" },
             // { id: 4, name: "FAYROUZ", price: "N700", image: "/fayrouz-pet-x12.jpg" },
             // { id: 5, name: "MALTA GUINNESS", price: "N800", image: "/mltg.jpeg" },
             // { id: 6, name: "AMSTEL MALTA ", price: "N800", image: "/amsmalt.png" },
@@ -138,7 +138,7 @@ export const regularMenu = [
             // { id: 13, name: "SMALL HOLLANDIA", price: "N700", image: "/hy.jpeg" },
             // { id: 14, name: "ICE TEA BIG", price: "N1,500", image: "/icedtea.jpeg" },
           { id: 0, name: "WATER", price: "N1,000", image: "/wt.png" },
-          { id: 20, name: "POWER HORSE", price: "N2,500", image: "/powerhorse.jpg" },
+          { id: 20, name: "POWER HORSE", price: "N3,000", image: "/powerhorse.jpg" },
          
         //   { id: 2, name: "MALT", price: "N700", image: "/malt.png" },
         //   { id: 5, name: "FANTA", price: "N700", image: "/fanta.webp" },
