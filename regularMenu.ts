@@ -108,8 +108,8 @@ export const regularMenu = [
       id: 5,
       category: "Vodka",
       drinks: [
-        { id: 1, name: "CIROC", price: "N80,000", image: "/ciroc.jpeg" }, 
-        { id: 2, name: "BELVEDERE VODKA", price: "N70,000", image: "/belvod.webp" },
+        { id: 1, name: "CIROC", price: "N100,000", image: "/ciroc.jpeg" }, 
+        { id: 2, name: "BELVEDERE VODKA", price: "N80,000", image: "/belvod.webp" },
         // { id: 3, name: "SMIRNOFF XI", price: "N12,000", image: "/vodsm.webp" },
         // { id: 4, name: "ABSOLUT VODKA", price: "N20,000", image: "/absvod.webp" },
         // { id: 5, name: "BIG MAGIC MOMENT", price: "N15,000", image: "/bmm.webp" },
