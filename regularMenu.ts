@@ -130,7 +130,7 @@ export const regularMenu = [
             // { id: 5, name: "MALTA GUINNESS", price: "N800", image: "/mltg.jpeg" },
             // { id: 6, name: "AMSTEL MALTA ", price: "N800", image: "/amsmalt.png" },
             // { id: 7, name: "HANGOVER TEA ", price: "N1,000", image: "/hgov.jpeg" },
-            { id: 8, name: "REDBULL", price: "N3,000", image: "/redbull.jpeg" },//CHECK
+            { id: 8, name: "REDBULL", price: "N4,000", image: "/redbull.jpeg" },//CHECK
             // { id: 9, name: "BIG CHIVITA", price: "N2,000", image: "/chibig.jpeg" },//CHECK
             // { id: 10, name: "SMALL CHIVITA", price: "N700", image: "/chismall.jpeg" },//CHECK
             { id: 11, name: "CRANBERRY", price: "N12,000", image: "/stute.png" },
