@@ -17,7 +17,7 @@ export const vipMenu = [
           { id: 9, name: "CASAMIGOS WHITE", price: "N300,000", image: "/casawh.webp" },
           { id: 10, name: "CASAMIGOS GOLD", price: "N300,000", image: "/casagd.jpeg" },
             { id: 11, name: "AMAN REPOSADO WHITE", price: "N300,000", image: "/images (4).jpeg" },
-          { id: 11, name: "AMAN BLANCO BLACK", price: "N280,000", image: "/images.jpeg" },
+          { id: 11, name: "AMAN BLANCO BLACK", price: "N280,000", image: "/images (6).jpeg" },
           // { id: 11, name: "POINTE TEQUILLA", price: "N250,000", image: "/casagd.jpeg" },
         
         ]
