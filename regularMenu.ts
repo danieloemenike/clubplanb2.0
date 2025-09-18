@@ -14,6 +14,7 @@ export const regularMenu = [
           { id: 6, name: "SIERRA TEQUILA", price: "N50,000", image: "/st.webp" }, 
           { id: 7, name: "OLMECA TEQUILA", price: "N80,000", image: "/otqq.webp" },
           { id: 8, name: "CASA MAESTRI", price: "N250,000", image: "/casaa.webp" },
+           { id: 11, name: "AMAN BLANCO BLACK", price: "N300,000", image: "/images.jpeg" }, 
           { id: 9, name: "CASAMIGOS WHITE", price: "N300,000", image: "/casawh.webp" },
           { id: 10, name: "CASAMIGOS GOLD", price: "N300,000", image: "/casagd.jpeg" },
         ]
