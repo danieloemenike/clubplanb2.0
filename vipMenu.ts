@@ -5,8 +5,8 @@ export const vipMenu = [
         drinks: [
           { id: 0, name: "AZUL BLACK MEZCAL", price: "N1,200,000", image: "/blavkazul.jpeg" },
           { id: 1, name: "AZUL CLASE", price: "N600,000", image: "/azulclase.webp" },
-            { id: 2, name: "AMAN CRISTALINO", price: "600,000", image: "/aman-tequila-anejo-cristalino-gift-box.png" },
-            { id: 2, name: "AVION RESERVA", price: "550,000", image: "/avion-reserva-cristalino-tequila-liquor-luxe_1024x1024.webp" },
+            { id: 2, name: "AMAN CRISTALINO", price: "N600,000", image: "/aman-tequila-anejo-cristalino-gift-box.png" },
+            { id: 2, name: "AVION RESERVA", price: "N550,000", image: "/avion-reserva-cristalino-tequila-liquor-luxe_1024x1024.webp" },
           { id: 2, name: "DON JULIO", price: "N700,000", image: "/donju.png" },
           { id: 3, name: "VOLCAN XA", price: "N450,000", image: "/volxa.png" }, 
           { id: 4, name: "VOLCAN WHITE", price: "N200,000", image: "/volwhite.webp" },
@@ -16,7 +16,9 @@ export const vipMenu = [
           { id: 8, name: "CASA MAESTRI", price: "N250,000", image: "/casaa.webp" },
           { id: 9, name: "CASAMIGOS WHITE", price: "N300,000", image: "/casawh.webp" },
           { id: 10, name: "CASAMIGOS GOLD", price: "N300,000", image: "/casagd.jpeg" },
+          { id: 11, name: "AMAN BLANCO BLACK", price: "N300,000", image: "/images.jpeg" },
           // { id: 11, name: "POINTE TEQUILLA", price: "N250,000", image: "/casagd.jpeg" },
+        
         ]
     },
     {
