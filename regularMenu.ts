@@ -26,7 +26,7 @@ export const regularMenu = [
         drinks: [
           { id: 0, name: "HENNESSY XO", price: "N550,000", image: "/henxo.jpeg" },
           { id: 1, name: "HENNESSY VSOP", price: "N180,000", image: "/henvs.png" },
-          { id: 2, name: "HENNESSY VS", price: "N120,000", image: "/images.jpeg" },
+          { id: 2, name: "HENNESSY VS", price: "N120,000", image: "/images (7).jpeg" },
           { id: 3, name: "MARTELL XXO", price: "N600,000", image: "/martelxxo.webp" }, 
           { id: 4, name: "MARTELL XO", price: "N450,000", image: "/Martell-XO.webp" },
           { id: 5, name: "MARTELL BLUESWIFT", price: "N150,000", image: "/mtswift.png" },
