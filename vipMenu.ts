@@ -14,6 +14,7 @@ export const vipMenu = [
           { id: 5, name: "VOLCAN GOLD", price: "N200,000", image: "/volgold.webp" },
           // { id: 6, name: "SIERRA TEQUILA", price: "N50,000", image: "/st.webp" }, 
           // { id: 7, name: "OLMECA TEQUILA", price: "N100,000", image: "/otqq.webp" },
+        { id: 6, name: "KICK THE RULES", price: "N 120,000", image: "/ktr.png" },
           { id: 8, name: "CASA MAESTRI", price: "N250,000", image: "/casaa.webp" },
           { id: 9, name: "CASAMIGOS WHITE", price: "N300,000", image: "/casawh.webp" },
           { id: 10, name: "CASAMIGOS GOLD", price: "N300,000", image: "/casagd.jpeg" },
