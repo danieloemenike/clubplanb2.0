@@ -121,8 +121,8 @@ export const vipMenu = [
     //     { id: 7, name: "SMIRNOFF X1 SMALL", price: "N3,000", image: "/smvodk.jpeg" },
     //     // { id: 3, name: "HAPPY LEAF", price: "N15,000", image: "/hapleaf.jpeg" },
      
-    //   ]
-    // },
+       ]
+     },
     {
         id: 6,
         category: "Soft Drink / Mixers",
