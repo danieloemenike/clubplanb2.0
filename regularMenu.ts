@@ -149,26 +149,7 @@ export const regularMenu = [
         //   { id: 5, name: "FANTA", price: "N700", image: "/fanta.webp" },
         ]
     },
-          
-    {
-       // id: 7,
-      //  category: "Spirit / Mixed",
-     //   drinks: [
-          // { id: 1, name: "LORD'S GIN", price: "N10,000", image: "/lordsgin.png" },//CHECK
-          // { id: 2, name: "BIG CAMPARI", price: "N20,000", image: "/camp.jpeg" },
-          //   { id: 3, name: "SMALL CAMPARI", price: "N5,000", image: "/smallca.webp" },
-          //    { id: 4, name: "GORDONS GIN", price: "N10,000", image: "/gord.jpeg" },//CHECK
-         //   { id: 5, name: "JAGERMEISTER", price: "N50,000", image: "/jarge.webp" },//CHECK
-          //   { id: 6, name: "BULLET", price: "N2,000", image: "/bbul.jpeg" },//CHECK
-          //   { id: 7, name: "PLASTIC ORIJIN", price: "N2,000", image: "/orbit.avif" },//CHECK
-          // { id: 8, name: "ODOGWU BITTERS", price: "N2,000", image: "/odbit.jpeg" },
-          // { id: 9, name: "ODOGWU HAMMER", price: "N1,500", image: "/hammer.webp" },//CHECK
-          // { id: 10, name: "1960 BITTERS", price: "N1,500", image: "/1960roots.webp" },//CHECK
-          // { id: 11, name: "EROKO BITTERS", price: "N1,000", image: "/eroko.png" },
-          // { id: 12, name: "ACTION BITTERS", price: "N1,500", image: "/actb.jpg" },
-        ]
-    },
-      
+
     // {
     //     id: 8,
     //     category: "Beers",
