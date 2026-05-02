@@ -37,7 +37,7 @@ export const vipMenu = [
           // { id: 6, name: "MARTELL VS", price: "N80,000", image: "/martk.png" }, 
           { id: 7, name: "REMY MARTINS XO", price: "N550,000", image: "/rmxo.jpeg" },
           { id: 8, name: "REMY MARTINS VSOP", price: "N180,000", image: "/rmvs.png" },
-          { id: 9, name: "REMY MARTINS 1738", price: "N180,000", image: "/rmmartins.jpeg" },
+          { id: 9, name: "REMY MARTINS 1738", price: "N200,000", image: "/rmmartins.jpeg" },
           // { id: 10, name: "MEUKOW VS", price: "100,000", image: "/meukowvs.webp" },
         
         ]
@@ -63,7 +63,7 @@ export const vipMenu = [
             // { id: 14, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             // { id: 15, name: "JAMESON BLACK BARREL", price: "N60,000", image: "/jbb.jpeg" },
             // { id: 16, name: "MONKEY SHOULDER", price: "N40,000", image: "/mshh.jpeg" },
-            { id: 10, name: "CHIVAS 25 YEARS", price: "N250,000", image: "/chivas25.webp" },
+            { id: 10, name: "CHIVAS 25 YEARS", price: "N300,000", image: "/chivas25.webp" },
              { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N180,000", image: "/chivas18.jpg" },
            // { id: 19, name: "OBSERVATORY 20YRS", price: "N150,000", image: "/observatory-20y.jpg" },
            // { id: 21, name: "BALVENIE", price: "120,000", image: "/balvenie.jpeg" },
@@ -102,9 +102,9 @@ export const vipMenu = [
         { id: 4, name: "MOET ROSE", price: "N250,000", image: "/moetrose.jpeg" },  
         { id: 5, name: "MOET ICE", price: "N300,000", image: "/moetice.jpeg" },   
         { id: 6, name: "VEUVE CLIEQUOT", price: "N250,000", image: "/veu.webp" },
-        { id: 7, name: "BELAIRE ROSE", price: "N120,000", image: "/blr.jpeg" },
-        { id: 8, name: "BELAIRE LUX", price: "N120,000", image: "/belue.webp" },
-        { id: 9, name: "BELAIRE LUX FANTOME", price: "N120,000", image: "/beluxe.png" },
+        { id: 7, name: "BELAIRE ROSE", price: "N160,000", image: "/blr.jpeg" },
+        { id: 8, name: "BELAIRE LUX", price: "N160,000", image: "/belue.webp" },
+        { id: 9, name: "BELAIRE LUX FANTOME", price: "N160,000", image: "/beluxe.png" },
       ]
     },
 
