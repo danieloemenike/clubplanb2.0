@@ -17,7 +17,8 @@ export const regularMenu = [
           { id: 7, name: "OLMECA TEQUILA", price: "N100,000", image: "/otqq.webp" },
           { id: 8, name: "CASA MAESTRI", price: "N250,000", image: "/casaa.webp" },
             { id: 11, name: "AMAN REPOSADO WHITE", price: "N300,000", image: "/images (4).jpeg" },
-           { id: 11, name: "AMAN BLANCO BLACK", price: "N300,000", image: "/images (6).jpeg" }, 
+            { id: 11, name: "AMAN BLANCO BLACK", price: "N300,000", image: "/images (6).jpeg" },
+           { id: 11, name: "AMAN ROSA BLANCO", price: "N300,000", image: "/" }, 
           { id: 9, name: "CASAMIGOS WHITE", price: "N320,000", image: "/casawh.webp" },
           { id: 10, name: "CASAMIGOS GOLD", price: "N350,000", image: "/casagd.jpeg" },
         ]
