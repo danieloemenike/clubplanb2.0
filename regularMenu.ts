@@ -55,6 +55,8 @@ export const regularMenu = [
             { id: 6, name: "GLENMORANGIE 10 YEARS", price: "N150,000", image: "/gl10.jpeg" }, 
             { id: 7, name: "GLENMORANGIE 18 YEARS", price: "N250,000", image: "/gl18.png" },
             { id: 8, name: "GLENMORANGIE SIGNET", price: "N700,000", image: "/glsign.jpeg" },
+            { id: 8, name: "THE GLENLIVET 12YRS", price: "N180,000", image: "/glenlivet-12-year-old-single-malt-scotch-whisky-70-cl-whisky-32841690120307.jpg" },
+            { id: 9, name: "THE GLENLIVET 15YRS", price: "250,000", image: "/images (4).jpeg" },
             { id: 9, name: "NECTAR D'OR", price: "N180,000", image: "/glnec.png" },
             { id: 10, name: "BLUE LABEL", price: "N550,000", image: "/bll.jpg" },
             { id: 11, name: "BLACK LABEL", price: "N100,000", image: "/bl.jpeg" },
