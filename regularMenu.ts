@@ -105,6 +105,7 @@ export const regularMenu = [
         { id: 4, name: "MOET ROSE", price: "N250,000", image: "/moetrose.jpeg" },  
         { id: 5, name: "MOET ICE", price: "N300,000", image: "/moetice.jpeg" },   
         { id: 6, name: "VEUVE CLIEQUOT", price: "N250,000", image: "/veu.webp" },
+        { id: 6, name: "VEUVE CLIEQUOT RICH", price: "N300,000", image: "/8120-1-1.jpg" }, 
         { id: 7, name: "BELAIRE ROSE", price: "N160,000", image: "/blr.jpeg" },
         { id: 8, name: "BELAIRE LUX", price: "N160,000", image: "/belue.webp" },
         { id: 9, name: "BELAIRE LUX FANTOME", price: "N160,000", image: "/beluxe.png" },
