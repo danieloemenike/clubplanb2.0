@@ -16,7 +16,7 @@ export const regularMenu = [
          // { id: 6, name: "SIERRA TEQUILA", price: "N80,000", image: "/st.webp" }, 
           { id: 7, name: "OLMECA TEQUILA", price: "N100,000", image: "/otqq.webp" },
           { id: 8, name: "CASA MAESTRI", price: "N250,000", image: "/casaa.webp" },
-            { id: 11, name: "AMAN REPOSADO WHITE", price: "N300,000", image: "/_360_01_xl (1).jpg" },
+            { id: 11, name: "AMAN REPOSADO WHITE", price: "N300,000", image: "/AMAN_Repo__07254.webp" },
             { id: 11, name: "AMAN ROSA BLANCO", price: "N300,000", image: "/Aman Tequila Rosa Blanco.png" }, 
             { id: 11, name: "AMAN BLANCO BLACK", price: "N300,000", image: "/images (6).jpeg" },
           { id: 9, name: "CASAMIGOS WHITE", price: "N320,000", image: "/casawh.webp" },
