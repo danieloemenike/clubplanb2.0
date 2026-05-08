@@ -38,6 +38,7 @@ export const regularMenu = [
           { id: 8, name: "REMY MARTINS VSOP", price: "N180,000", image: "/rmvs.png" },
           { id: 9, name: "REMY MARTINS 1738", price: "N200,000", image: "/rmmartins.jpeg" },
             { id: 10, name: "MEUKOW VS", price: "120,000", image: "/meukowvs.webp" },
+            { id: 10, name: "MEUKOW VS", price: "120,000", image: "/meukowvs.webp" },
         
         
         ]
