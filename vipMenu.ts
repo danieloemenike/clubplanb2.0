@@ -18,7 +18,7 @@ export const vipMenu = [
           { id: 8, name: "CASA MAESTRI", price: "N250,000", image: "/casaa.webp" },
           { id: 9, name: "CASAMIGOS WHITE", price: "N320,000", image: "/casawh.webp" },
           { id: 10, name: "CASAMIGOS GOLD", price: "N350,000", image: "/casagd.jpeg" },
-            { id: 11, name: "AMAN REPOSADO WHITE", price: "N300,000", image: "/_360_01_xl (1).jpg" },
+            { id: 11, name: "AMAN REPOSADO WHITE", price: "N300,000", image: "/AMAN_Repo__07254.webp" },
             { id: 11, name: "AMAN ROSA BLANCO", price: "N300,000", image: "/Aman Tequila Rosa Blanco.png" }, 
           { id: 11, name: "AMAN BLANCO BLACK", price: "N300,000", image: "/images (6).jpeg" },
             { id: 10, name: "MEUKOW VSOP", price: "150,000", image: "/images (3).jpeg" },
