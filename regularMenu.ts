@@ -66,6 +66,7 @@ export const regularMenu = [
             // { id: 15, name: "JAMESON GREEN BARREL", price: "N40,000", image: "/gb.png" }, 
             { id: 16, name: "JAMESON BLACK BARREL", price: "N150,000", image: "/jbb.jpeg" },
             { id: 16, name: "TULLAMORE DEW", price: "40,000", image: "/Tullamore-Dew24.jpg" },
+            { id: 16, name: "MONKEY SHOULDER", price: "80,000", image: "/monkey-shoulder-1.jpg" },
          // { id: 17, name: "MONKEY SHOULDER", price: "N60,000", image: "/mshh.jpeg" },
           { id: 21, name: "CHIVAS 25 YEARS", price: "N300,000", image: "/chivas25.webp" },
                { id: 18, name: "CHIVAS REGAL 18 YEARS", price: "N180,000", image: "/chivas18.jpg" },
