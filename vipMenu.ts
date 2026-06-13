@@ -136,7 +136,7 @@ export const vipMenu = [
             // { id: 5, name: "MALTA GUINNESS", price: "N800", image: "/mltg.jpeg" },
             // { id: 6, name: "AMSTEL MALTA ", price: "N800", image: "/amsmalt.png" },
            // { id: 7, name: "HANGOVER TEA ", price: "N2,000", image: "/hgov.jpeg" },
-            { id: 8, name: "REDBULL ENERGY DRINK", price: "N5,000", image: "/3ddbb24e4675ae706b2f571ed55ca987.jpg" },//CHECK
+            { id: 8, name: "RED BULL", price: "N5,000", image: "/1234.png" },//CHECK
             { id: 9, name: "REDBULL SUGAR FREE", price: "N5,000", image: "/3fc61c3a-e79d-4f7e-8445-6efa3d1323be_728080430.jpeg"},
             { id: 9, name: "REDBULL THE RED EDITION", price: "N5,000", image: "/Red-Bull-Red-12oz-Cans_1.jpeg" },
              { id: 9, name: "BIG CHIVITA", price: "N8,000", image: "/chibig.jpeg" },//CHECK
