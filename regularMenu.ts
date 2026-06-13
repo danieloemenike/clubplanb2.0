@@ -143,7 +143,7 @@ export const regularMenu = [
             // { id: 5, name: "MALTA GUINNESS", price: "N800", image: "/mltg.jpeg" },
             // { id: 6, name: "AMSTEL MALTA ", price: "N800", image: "/amsmalt.png" },
             // { id: 7, name: "HANGOVER TEA ", price: "N1,000", image: "/hgov.jpeg" },
-            { id: 8, name: "RED BULL", price: "N5,000", image: "Screenshot_20260613-183258.jpg" },//CHECK
+            { id: 8, name: "RED BULL ENERGY DRINK", price: "N5,000", image: "Screenshot_20260613-183258.jpg" },//CHECK
             { id: 9, name: "RED BULL SUGAR FREE", price: "N5,000", image: "/IMG_20260613_190811.jpg"},
             { id: 9, name: "RED BULL WATERMELON", price: "N5,000", image: "/IMG_20260613_185800.jpg" },
             { id: 9, name: "BIG CHIVITA", price: "N8,000", image: "/chibig.jpeg" },
