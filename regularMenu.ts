@@ -114,6 +114,7 @@ export const regularMenu = [
         { id: 7, name: "BELAIRE ROSE", price: "N160,000", image: "/blr.jpeg" },
         { id: 8, name: "BELAIRE LUX", price: "N160,000", image: "/belue.webp" },
         { id: 9, name: "BELAIRE LUX FANTOME", price: "N160,000", image: "/beluxe.png" },
+       { id: 9, name: "ANGELUS CHAMPAGNE", price: "N160,000", image: "/Angelus-Premium-Rose-Wine-700x700.png" },
       ]
     },
 
